@@ -27,9 +27,6 @@ $port->baudrate(9600);
 $port->parity("none");
 $port->stopbits(1);
 
-
-# workaround : few iteration are made if needed, sometimes, the status doesn't get well transmit
-# the begin or end is missing, so asking it again seems to solve the problem.
 my $cpt = 0;
 my $st = "";
 my $prev = 0;
