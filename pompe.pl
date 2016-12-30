@@ -1,7 +1,4 @@
 #!/usr/bin/perl -w
-# activate / deactivate pin
-# doesn't handle the port type (relay) as the arduino take care of it
-# when the arduino starts, all pin are low but for relay they're high
 
 use strict;
 use warnings;
